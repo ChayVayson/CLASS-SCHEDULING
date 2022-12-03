@@ -1,0 +1,38 @@
+ngalan_sa_studyante = input("Enter student name:	")
+print("Hello:   ", ngalan_sa_studyante)
+
+
+print("List of subjects : ")
+print("""	
+	1. 7:30 am to 9:00 am
+	2. 9:01 am to 10:30am
+	3. 10:31 am to 12:00 nn
+	4. 12:01nn to 1:00pm
+	5. 1:01 pm to 2:30pm
+	6. 2:31 pm to 4:00 pm""")
+	
+
+for i in range    (6):
+	
+	oras = int(input("Enter time:	"))
+	if oras == 1:
+		print("Ang imong schedule ana nga oras kay", )
+	elif oras == 2:
+		print("Ang imong schedule ana nga oras kay math")
+	elif oras == 3:
+		print("Ang imong schedule ana nga oras kay Ethics")
+	elif oras == 3:
+		print("Ang imong schedule ana nga oras kay Lunchbreak")
+	elif oras == 4:
+	    print("Ang imong schedule ana nga oras kay Purposive communication")
+	elif oras == 5:
+	    print("Ang imong schedule ana nga oras kay Movement Enhancement")
+	elif oras == 6:
+	    print("ANg imong schedula ana ngwa oras kay NST")
+	else:
+	    print("dle mao ")
+	gg = input("do you want to try again?  yes or no	")
+	if gg == "yes" or gg == "y":
+	      	continue
+	else:
+		break
